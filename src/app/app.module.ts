@@ -5,8 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-// Import the ButtonsModule...
-import { ButtonsModule } from '@progress/kendo-angular-buttons';
+import { GridModule } from '@progress/kendo-angular-grid';
 
 /* Loading CLDR data
  * http://www.telerik.com/kendo-angular-ui/components/internationalization/
@@ -44,8 +43,7 @@ load(
     FormsModule,
     HttpModule,
 
-    // ... and register it
-    ButtonsModule
+    GridModule
   ],
   bootstrap: [AppComponent]
 })
