@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 
 // Import the ButtonsModule...
 import { ButtonsModule } from '@progress/kendo-angular-buttons';
+import { ChartsModule } from '@progress/kendo-angular-charts';
+
 
 /* Loading CLDR data, see
  * http://www.telerik.com/kendo-angular-ui/components/internationalization/
@@ -24,6 +26,7 @@ import { ButtonsModule } from '@progress/kendo-angular-buttons';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ChartsModule,
     FormsModule,
     HttpModule,
 
